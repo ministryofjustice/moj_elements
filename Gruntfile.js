@@ -36,7 +36,7 @@ module.exports = function(grunt) {
           sourcemap: 'none'
         },
         files: {
-          'build/stylesheets/moj.tabs.css': 'src/stylesheets/moj.tabs.scss'
+          'dist/stylesheets/moj.tabs.css': 'src/stylesheets/moj.tabs.scss'
         }
       }
     },
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
         expand: true,
         cwd: 'src/',
         src: 'javascripts/**',
-        dest: 'build/'
+        dest: 'dist/'
       }
     }
   });

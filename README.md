@@ -10,7 +10,7 @@ Common stylesheets and JavaScript for MOJ Digital Serivces which are not already
 
 ## Suggested use
 
-A possible way to use these files is to include into your project using [Bower](http://bower.io). Use either source files `src/` or compiled files `build/`.
+A possible way to use these files is to include into your project using [Bower](http://bower.io). Use either source files `src/` or compiled files `dist/`.
 
     bower install ministryofjustice/moj_elements --save
 
