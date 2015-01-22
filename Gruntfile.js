@@ -15,6 +15,21 @@ module.exports = function(grunt) {
         src: ['src/javascripts/**/*.js']
       }
     },
+    jasmine: {
+      javascripts: {
+        src: [
+          // list javascript source files here
+        ],
+        options: {
+          vendor: [
+            'node_modules/jquery-browser/lib/jquery.js',
+            'node_modules/jasmine-jquery/lib/jasmine-jquery.js'
+          ],
+          specs: 'spec/javascripts/unit/*Spec.js',
+          keepRunner: true
+        }
+      }
+    },
     sass: {
       build: {
         options: {
@@ -54,8 +69,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-jasmine');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'sass', 'copy']);
+  grunt.registerTask('default', ['jshint', 'jasmine', 'sass', 'copy']);
 
 };
