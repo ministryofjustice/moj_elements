@@ -14,5 +14,8 @@
     "grunt-contrib-watch": "~0.6.1",
     "jasmine-jquery": "^2.0.6",
     "jquery-browser": "^1.10.2-1"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/grunt jasmine"
   }
 }

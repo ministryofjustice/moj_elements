@@ -18,3 +18,13 @@ Then include the module you require into your manifest or build process.
 
 > Note: JavaScript modules should also include `moj.js` before the module.
 
+## Running tests
+
+Tests for this project use Jasmine for the JavaScript.
+
+The requirements are Node.js and PhantomJS:
+
+```bash
+npm install
+npm test
+```
