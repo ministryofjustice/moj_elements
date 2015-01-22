@@ -30,5 +30,8 @@
     "spec",
     "Gruntfile.js",
     "_SpecRunner.html"
-  ]
+  ],
+  "dependencies": {
+    "handlebars": "~2.0.0"
+  }
 }

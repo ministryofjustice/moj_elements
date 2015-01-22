@@ -18,12 +18,14 @@ module.exports = function(grunt) {
     jasmine: {
       javascripts: {
         src: [
-          // list javascript source files here
+          'src/javascripts/moj.js',
+          '<%= jshint.javascripts.src %>'
         ],
         options: {
           vendor: [
             'node_modules/jquery-browser/lib/jquery.js',
-            'node_modules/jasmine-jquery/lib/jasmine-jquery.js'
+            'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
+            'bower_components/handlebars/handlebars.js'
           ],
           specs: 'spec/javascripts/unit/*Spec.js',
           keepRunner: true

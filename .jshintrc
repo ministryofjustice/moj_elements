@@ -11,7 +11,9 @@
   "boss": true,
   "eqnull": true,
   "browser": true,
+  "jquery": true,
   "globals": {
-    "jQuery": true
+    "moj": true,
+    "Handlebars": true
   }
 }
