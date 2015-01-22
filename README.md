@@ -18,10 +18,3 @@ Then include the module you require into your manifest or build process.
 
 > Note: JavaScript modules should also include `moj.js` before the module.
 
-## Contributions
-
-It is assumed that this will be used in conjunction with other GOV.UK & MOJ repos. Please DO NOT add modules to this repo if it already exists in GOV.UK Elements unless there is good reason - not personal preference.
-
-Module files should be prefixed with `moj` to prevent clashes.
-
-Make sure files are lint free and part of the build task.
