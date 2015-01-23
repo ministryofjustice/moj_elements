@@ -34,9 +34,6 @@ module.exports = function(grunt) {
     },
     sass: {
       build: {
-        options: {
-          sourcemap: 'none'
-        },
         files: {
           'dist/stylesheets/moj.tabs.css': 'src/stylesheets/moj.tabs.scss'
         }
