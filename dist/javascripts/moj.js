@@ -1,5 +1,3 @@
-/*global moj, $ */
-
 // Heisenberg structure for MOJ
 // Dependencies: jQuery
 
@@ -39,19 +37,4 @@
   };
 
   window.moj = moj;
-}());
-
-(function () {
-  'use strict';
-
-  // Invite interested developers to join us
-  moj.Modules.devs = {
-    init: function () {
-      var m = '     ___          ___       ___\n     /__/\\        /  /\\     /  /\\\n    |  |::\\      /  /::\\   /  /:/\n    |  |:|:\\    /  /:/\\:\\ /__/::\\\n  __|__|:|\\:\\  /  /:/  \\:\\\\__\\/\\:\\\n /__/::::| \\:\\/__/:/ \\__\\:\\  \\  \\:\\\n \\  \\:\\~~\\__\\/\\  \\:\\ /  /:/   \\__\\:\\\n  \\  \\:\\       \\  \\:\\  /:/    /  /:/\n   \\  \\:\\       \\  \\:\\/:/    /__/:/\n    \\  \\:\\       \\  \\::/     \\__\\/\n     \\__\\/        \\__\\/',
-      txt = '\n\nFind out how we\'re making the Ministry Of Justice Digital by Default.'+
-            '\n\nGet in touch to see what positions are available and see what projects you could be working on.'+
-            '\nhttps://mojdigital.blog.gov.uk/working-at-moj-ds/';
-      moj.log(m+txt);
-    }
-  };
 }());

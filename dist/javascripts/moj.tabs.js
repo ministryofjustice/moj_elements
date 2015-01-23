@@ -1,5 +1,3 @@
-/*global moj, $ */
-
 // Tabs modules for MOJ
 // Dependencies: moj, jQuery
 
