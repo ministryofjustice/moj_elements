@@ -16,6 +16,7 @@
     "jquery-browser": "^1.10.2-1"
   },
   "scripts": {
+    "postinstall": "bower install",
     "test": "node_modules/.bin/grunt jasmine"
   }
 }
