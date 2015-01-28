@@ -3,6 +3,7 @@ module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
+
     // Task configuration.
     jshint: {
       options: {
@@ -15,6 +16,7 @@ module.exports = function(grunt) {
         src: ['src/javascripts/**/*.js']
       }
     },
+
     jasmine: {
       javascripts: {
         src: [
@@ -32,6 +34,7 @@ module.exports = function(grunt) {
         }
       }
     },
+
     sass: {
       build: {
         files: {
@@ -39,6 +42,7 @@ module.exports = function(grunt) {
         }
       }
     },
+
     watch: {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
@@ -53,6 +57,7 @@ module.exports = function(grunt) {
         tasks: ['sass:stylesheets']
       }
     },
+
     copy: {
       main: {
         expand: true,
@@ -61,6 +66,7 @@ module.exports = function(grunt) {
         dest: 'dist/'
       }
     }
+
   });
 
   // These plugins provide necessary tasks.
