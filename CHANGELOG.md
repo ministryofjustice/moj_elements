@@ -1,3 +1,7 @@
+# 0.1.0
+
+- Removed [Timeout Prompt to dedicated repo](https://github.com/ministryofjustice/moj-timeoutprompt)
+
 # 0.0.3
 
 - Fix build processes for Sass and initial install
